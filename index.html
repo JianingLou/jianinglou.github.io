@@ -1,94 +1,84 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jianing Lou</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            /* font-family: Inter, sans-serif; */
-            font-size: 22px;
-/*             margin-top: 20px; */
-/*             margin-left: 100px; */
-/*             margin-right: 80px; */
-            line-height: 1.5;
-            padding: 0;
-            background-color: #fff;
-        }
-        a {
-            color: black;
-            /* text-decoration: none; 去掉链接的下划线 */
-        }
-
-        li {
-            margin-bottom: 20px;
-        }
-
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-        }
-    </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jianing Lou's Homepage</title>
+<link href="main.css" rel="stylesheet" type="text/css"/>
+<style>
+      a:link, a:visited { color: DodgerBlue; text-decoration: none; }
+      a:hover { color: red; text-decoration: underline; }
+      a:active { color: yellow; text-decoration: underline; }
+    
+body { font-size: 20px; line-height: 1.4; }
+/*ul { margin-top: -5px;}*/
+/*h4 { margin-top: -5px; }*/
+</style>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                inlineMath: [['$','$']]
+                }
+            });
+    </script>
 </head>
-<body>
-<!-- 
-<header>
-    <h1>Academic Homepage</h1>
-</header>
+<body><div style="max-width: none; margin-left: 40px; margin-right: 40px;">
+<h1>
+  Jianing Lou (楼家宁)
+</h1><hr style="border: 0; border-top: 2px solid #ccc; margin-top: 2px; margin-bottom: 20px;"/>
+<p>
+  I am a second-year Ph.D. student at the <a href="https://cfcs.pku.edu.cn/english/">Center on Frontiers of Computing Studies (CFCS)</a>, School of Computer Science, Peking University, where I am fortunate to be advised by <a href="https://shaofengjiang.cn">Prof. Shaofeng Jiang</a>.
+  I obtained my bachelor’s degree at Turing Class, Peking University.
+</p>
+<h2>Contact</h2>
+<ul>
+<li><strong>Email:</strong> loujn at pku dot edu dot cn</li>
+<li><strong>Office:</strong> Room 207, Courtyard No.5, Jingyuan, Peking University</li>
+</ul>
+<h2>Research Interests</h2>
+<ul>
+<li>Theoretical Computer Science</li>
+<li>Sublinear Algorithms</li>
+</ul>
+<h2>Publications</h2>
+<p style="margin-top: -25px;"><em> (Following TCS convention, authors are sorted in alphabetical order.)</em></p>
+<ul> 
+<li>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
-</nav> -->
+<b> Coresets for Kernel Clustering <a href="https://link.springer.com/article/10.1007/s10994-024-06540-z" target="_blank">[PDF]</a> </b><br/>
+<!-- <b><a href="https://arxiv.org/abs/2110.02898">Coresets for Kernel Clustering</a></b><br/> -->
+    Shaofeng H.-C. Jiang, Robert Krauthgamer, Jianing Lou, Yubo Zhang<br/>
+<i>Machine Learning</i>, 2024
+</li>
 
-<section id="about">
-    <!-- <h1> Jianing Lou</h1> -->
-    <p style="font-size: 50px; font-weight: bold;"> Jianing Lou</p>
-    <p>
-        I am a first-year Ph.D. student at the <a href="https://cfcs.pku.edu.cn/english/">Center on Frontiers of Computing Studies (CFCS)</a>, School of Computer Science, Peking University, where I am fortunate to be advised by <a href="https://shaofengjiang.cn">Prof. Shaofeng Jiang</a>. 
-        I obtained my bachelor’s degree at Turing Class, Peking University.
-    </p>
-    <p>I am interested in theoretical computer science, in particular algorithm design and analysis.</p>
-    <p>Email: loujn at pku dot edu dot cn</p>
-</section>
+<li>
+<b> The Power of Uniform Sampling for k-Median <a href="https://proceedings.mlr.press/v202/huang23j/huang23j.pdf">[PDF]</a></b><br/>
+<!-- <b><a href="https://proceedings.mlr.press/v202/huang23j/huang23j.pdf">The Power of Uniform Sampling for k-Median</a></b><br/> -->
+    Lingxiao Huang, Shaofeng H.-C. Jiang, Jianing Lou<br/>
+    40th International Conference on Machine Learning (ICML 2023)
+  </li>
+<li>
+<b> Near-optimal Coresets for Robust Clustering <a href="https://arxiv.org/abs/2210.10394"> [PDF] </a></b><br/>
+    Lingxiao Huang, Shaofeng H.-C. Jiang, Jianing Lou, Xuan Wu<br/>
+    11th International Conference on Learning Representations (ICLR 2023 notable-top-5%)
+  </li>
+</ul>
+<h4>Manuscripts</h4>
+<ul>
+<li>
+<b> Coresets for Robust Clustering via Black-box Reductions to Vanilla Case <a href="https://arxiv.org/abs/2502.07669"> [PDF] </a></b><br/>
+    Shaofeng H.-C. Jiang, Jianing Lou<br/>
+  </li>
+<li>
+<b> Local Search for Clustering in Almost-linear Time <a href="https://arxiv.org/abs/2504.03513"> [PDF] </a></b><br/>
+    Shaofeng H.-C. Jiang, Yaonan Jin, Jianing Lou, Pinyan Lu<br/>
+  </li>
 
-<section id="publications">
-    <!-- <h2>Research</h2> -->
-    <h2>Publications</h2>   
-    <ul>
-        <li>
-            <strong><a href="https://arxiv.org/abs/2110.02898">Coresets for Kernel Clustering</a>.</strong><br>
-            With Shaofeng H.-C. Jiang, Robert Krauthgamer and Yubo Zhang.<br>
-            Accepted by <a href="https://link.springer.com/journal/10994" style="font-style: italic;">Machine Learning</a>, 2024.
-        </li>
-        <li>
-            <strong><a href="https://proceedings.mlr.press/v202/huang23j/huang23j.pdf">The Power of Uniform Sampling for k-Median</a>.</strong><br>
-            With Lingxiao Huang and Shaofeng H.-C. Jiang. <br>
-            In the 40th International Conference on Machine Learning (ICML 2023).
-        </li>
-        <li>
-            <strong><a href="https://arxiv.org/abs/2210.10394">Near-optimal Coresets for Robust Clustering</a>.</strong> <br>
-            With Lingxiao Huang, Shaofeng H.-C. Jiang and Xuan Wu. <br>
-            In the 11th International Conference on Learning Representations (ICLR 2023 notable-top-5%).
-        </li>
-        <!-- Add more publications as needed -->
-    </ul>
-
-    <h2>Working Papers</h2>
-    <ul>
-        <li>
-            <strong><a href="">Coresets for Robust Clustering via Black-box Reductions to Vanilla Case</a>.</strong><br>
-            With Shaofeng H.-C. Jiang.<br>
-            Submitted.
-            <!-- Preprint 2024 -->
-        </li>    
-    </ul>
-</section>
-
-</body>
+</ul>
+<hr style="border: 0; border-top: 2px solid #ccc; margin-top: 2px; margin-bottom: 20px;"/>
+<p>Last updated: April 7, 2025</p>
+</div></body>
 </html>
